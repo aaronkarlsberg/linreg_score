@@ -20,7 +20,7 @@ SCORE_FILE="${gene_name}.score"
 
 OUT="${gene_name}.plink"
 
-Rscript /u/home/a/akarlsbe/scratch/ANIL/TWAS/fusion_twas-master/utils/make_score.R "/u/home/a/akarlsbe/scratch/ANIL/TWAS/anypards_genotype_data/plinks_by_gene_diff_Ex_491/WEIGHTS/anypards_${gene_name}.wgt.RDat" > "${gene_name}.score"
+Rscript /u/home/a/akarlsbe/scratch/ANIL/TWAS/fusion_twas-master/utils/make_score.R "/u/home/a/akarlsbe/scratch/ANIL/TWAS/anypards_genotype_data/plinks_by_gene/WEIGHTS/anypards_${gene_name}.wgt.RDat" > "${gene_name}.score"
 
 plink --bfile $BFILE --score $SCORE_FILE 1 2 4 --out $OUT
 

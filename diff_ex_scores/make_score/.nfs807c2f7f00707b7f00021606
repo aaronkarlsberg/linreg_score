@@ -1,0 +1,7 @@
+
+Usage: Rscript make_score.R [wgt.RDat file] > [SCORE_FILE]
+The SCORE_FILE can be loaded directly into the PLINK software (https://www.cog-genomics.org/plink2)
+The best performing model (most significant cross-validation p-value) is always selected, even if it's top-snp
+To predict into individual-level data use the following command:
+plink --bfile [GENOTYPES] --score [SCORE_FILE] 1 2 4
+ERROR: /u/home/a/akarlsbe/scratch/ANIL/TWAS/anypards_genotype_data/plinks_by_gene/WEIGHTS/anypards_TMPRSS9.wgt.RDat does not exist or cannot be read

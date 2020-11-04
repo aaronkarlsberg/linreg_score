@@ -1,0 +1,26 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile ../bfiles_count/AC092620.2_GSAMD.secondld.pruned.anypards
+  --out AC092620.2.plink
+  --score AC092620.2.score 1 2 4
+
+Hostname: login4
+Working directory: /u/flashscratch/a/akarlsbe/ANIL/TWAS/anypards_genotype_data/plinks_by_gene_diff_Ex_491/make_score
+Start time: Tue Nov  3 20:58:39 2020
+
+Random number seed: 1604465919
+48399 MB RAM detected; reserving 24199 MB for main workspace.
+Allocated 3229 MB successfully, after larger attempt(s) failed.
+2 variants loaded from .bim file.
+241 people (123 males, 117 females, 1 ambiguous) loaded from .fam.
+Ambiguous sex ID written to AC092620.2.plink.nosex .
+208 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 241 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+2 variants and 241 people pass filters and QC.
+Phenotype data is quantitative.
+--score: 1 valid predictor loaded.
+--score: Results written to AC092620.2.plink.profile .
+
+End time: Tue Nov  3 20:58:39 2020
